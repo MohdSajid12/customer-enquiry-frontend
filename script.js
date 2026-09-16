@@ -2,7 +2,7 @@ const form = document.getElementById("enquiryForm");
 const submitBtn = document.getElementById("submitBtn");
 const formMessage = document.getElementById("formMessage");
 
-const API_URL = "https://YOUR-RENDER-URL.onrender.com/api/enquiry";
+const API_URL ="https://customer-enquiry-api.onrender.com/api/enquiry";
 
 form.addEventListener("submit", async function (e) {
 
