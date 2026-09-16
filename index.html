@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="contact-card">
+            <div class="contact-info">
+                <div class="brand">
+                    YOUR<span>BRAND</span>
+                </div>
+
+                <div class="info-content">
+                    <span class="badge">GET IN TOUCH</span>
+                    <h1>Let's talk about <span>your idea.</span></h1>
+                    <p>
+                        Have a question or looking for more information?
+                        Fill out the form and our team will get back to you
+                        as soon as possible.
+                    </p>
+                </div>
+                <div class="copyright">
+                    © 2026 Your Brand. All rights reserved.
+                </div>
+            </div>
+
+
+            <!-- Right Side -->
+            <div class="form-section">
+                <div class="form-header">
+                    <h2>Send us a message</h2>
+                    <p> Fill in your details below and we'll contact you.</p>
+                </div>
+
+                <form id="enquiryForm">
+                    <div class="input-row">
+                        <div class="form-group">
+                            <label for="name"> Full Name </label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com"required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+91 98765 43210" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message"> Message</label>
+                        <textarea id="message" rows="5"placeholder="Tell us a little about your requirement..." ></textarea>
+                    </div>
+
+                    <button type="submit" id="submitBtn">
+                        <span>Send Enquiry</span>
+                        <span class="arrow">→</span>
+                    </button>
+                    <div id="formMessage" class="form-message" ></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
